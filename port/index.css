@@ -6,8 +6,6 @@
 }
 
 body {
-  margin: 30px 50px;
-  line-height: 1.4;
   font-family: Verdana;
   background-color: var(--background);
 }
@@ -51,6 +49,8 @@ li a:hover {
 }
 
 .container {
+  width: 100%;
+  margin: 0;
   display: grid;
   grid-gap: 20px;
 }
@@ -69,10 +69,9 @@ li a:hover {
 
 footer {
   width: 100%;
-  position: relative;
-	bottom: 0;
-	max-width:100%;
   margin-top: 0px;
+  margin: auto;
+  height: auto;
   background: var(--other);
   color: var(--text);
   text-align: center;
@@ -106,7 +105,7 @@ h4{text-align: center;}
 .port {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   padding: 5px;
@@ -122,7 +121,7 @@ h4{text-align: center;}
 	width: 500px;
 	height: 500px;
 	background: url('sprite2.png') 0 0 no-repeat;
-	animation: play 5s steps(8) infinite;
+	animation: play 3s steps(8) infinite;
 }
 @keyframes play {
 	0%{background-position:0px;}
@@ -159,7 +158,6 @@ input[type=submit]:hover {
   border-radius: 5px;
   padding: 20px;
 }
-
 
 @@media screen and (min-width: 550px) {
   html, body{
