@@ -6,7 +6,6 @@
   --brown: #957152;
 }
 
-
 body {
   margin: 30px 50px;
   line-height: 1.4;
@@ -45,16 +44,11 @@ li a {
   text-decoration: none;
   text-align: center;
   background: var(--white);
-
 }
 
 li a:hover {
   color: var(--white);
   background: var(--black);
-}
-
-.active {
-  color: var(--brown);
 }
 
 .container {
