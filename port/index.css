@@ -25,11 +25,7 @@ nav{float:right;}
   grid-gap: 10px;
 }
 
-.mainnav{
-  align-items: center;
-}
-
-ul {
+.navbar {
   display: grid;
   list-style: none;
   grid-gap: 20px;
@@ -39,7 +35,7 @@ ul {
   grid-template-columns: repeat(4, 1fr);
 }
 
-li a {
+a {
   display: block;
   color: var(--text);
   padding: 8px 16px;
@@ -48,7 +44,7 @@ li a {
   background: var(--background);
 }
 
-li a:hover {
+a:hover {
   color: var(--background);
   background: var(--text);
 }
