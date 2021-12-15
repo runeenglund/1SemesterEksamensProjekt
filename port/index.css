@@ -8,6 +8,8 @@
 body {
   font-family: Verdana;
   background-color: var(--background);
+  margin: 0;
+  padding: 0;
 }
 
 img {
@@ -21,7 +23,10 @@ nav{float:right;}
 .grid-container{
   display: grid;
   grid-gap: 10px;
-  padding: 10px;
+}
+
+.mainnav{
+  align-items: center;
 }
 
 ul {
@@ -56,7 +61,7 @@ li a:hover {
 }
 
 .banner{
-  background-image: url(banner1.png);
+  background-image: url(images/banner1.png);
   background-size: cover;
   background-position: center;
   padding: 5px;
@@ -67,6 +72,13 @@ li a:hover {
   color: var(--text);
 }
 
+header {
+  width: 100%;
+  margin-top: 0px;
+  margin: auto;
+  height: auto;
+  padding: 5px;
+}
 footer {
   width: 100%;
   margin-top: 0px;
@@ -120,7 +132,7 @@ h4{text-align: center;}
 .sprite {
 	width: 500px;
 	height: 500px;
-	background: url('sprite2.png') 0 0 no-repeat;
+	background: url('images/sprite2.png') 0 0 no-repeat;
 	animation: play 3s steps(8) infinite;
 }
 @keyframes play {
@@ -159,7 +171,12 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-@@media screen and (min-width: 550px) {
+.video{
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 550px) {
   html, body{
     height: 100%;
   }
