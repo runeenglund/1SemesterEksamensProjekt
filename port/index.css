@@ -74,14 +74,12 @@ li a:hover {
 
 header {
   width: 100%;
-  margin-top: 0px;
   margin: auto;
   height: auto;
   padding: 5px;
 }
 footer {
   width: 100%;
-  margin-top: 0px;
   margin: auto;
   height: auto;
   background: var(--other);
